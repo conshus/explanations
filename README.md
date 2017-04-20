@@ -23,6 +23,7 @@ Routes in Express match URL patterns to callback functions that will handle what
 Pug is a template engine like Handlebars. It takes variables in a static file, replaces them with data from the database and sends it to the client as HTML.
 
 Render path
+
 http://localhost:3000/catalog/author/58f784654a8f75b43d08bdbc
 The URL pattern is recognized by app.js
 app.use('/catalog', catalog);
