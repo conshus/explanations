@@ -1,5 +1,6 @@
 # explanations
 6.3 Talking About the Back End assignment
+
 Explanations
 * mongoose:
 Mongoose is a bridge between Express / Node and MongoDB. Through Mongoose we can use things similar to Object Oriented Programming to manipulate the data in the database.
@@ -25,6 +26,7 @@ Pug is a template engine like Handlebars. It takes variables in a static file, r
 Render path
 
 http://localhost:3000/catalog/author/58f784654a8f75b43d08bdbc
+
 The URL pattern is recognized by app.js
 app.use('/catalog', catalog);
 
